@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+li {
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero-banner {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.sub-text,
+li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.bread-header {
+    width: 400px;
+    height: auto;
+}
+
+.left,
+.right {
+    width: 400px;
+}
+
+.top-button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 30px;
+    margin: 15px 0;
+}
+
+.info-container {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 36px 0;
+}
+
+.bread-info {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #404040;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.author {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+blockquote {
+    max-width: 956px;
+}
+
+.nl-bar {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 40px 70px;
+    margin: 80px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nl-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nl-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 15px 0;
+}
